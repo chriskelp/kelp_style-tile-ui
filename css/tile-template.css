@@ -4,6 +4,7 @@
 .color-3,
 .color-4,
 .color-5,
+.color-6,
 .pattern-1,
 .pattern-2,
 .pattern-3,
@@ -15,6 +16,41 @@
 .icon-4,
 .icon-5 {
 	border: 1px solid #000;
+	display: inline-block;
+	margin: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.color-6{
+    height: 50px;
+    width: 25%;
+    float: left;
+}
+
+.pattern-1,
+.pattern-2,
+.pattern-3,
+.pattern-4,
+.pattern-5{
+    height:200px;
+    width: 200px;
+    
+}
+
+
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5 {
+	border: none;
 	display: inline-block;
 	margin: 10px;
 	height: 100px;

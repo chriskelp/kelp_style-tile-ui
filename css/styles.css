@@ -3,7 +3,39 @@
 /***************/
 
 /* Color Palette */
+body{
+  
+    
+}
+.color-1{
+    background-color: gold;
+    
+}
 
+.color-2{
+    background-color: purple;
+    
+}
+
+.color-3{
+    background-color: red;
+    
+}
+
+.color-4{
+    background-color: saddlebrown;
+    
+}
+
+.color-5{
+    background-color: deepskyblue;
+    
+}
+
+.color-6{
+    background-color: palegreen;
+    
+}
 
 /* Textures or Patterns*/
 
@@ -13,14 +45,119 @@
 
 /* Icons */
 
+.icon-1{
+   
+    
+}
 
 /* Typography */
 
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+    border: solid black;
+    line-height: 1.5em;
+    
+}
+
+li{
+    display: inline;
+    
+    padding: .5em;
+    border-radius: 5px;
+    letter-spacing: .05em;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 
+}
+
+a{
+    text-decoration: none;
+    text-color: black;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+
+.grid-3 h2{
+    font-family:Georgia;
+    font-size: 1.5em;
+    letter-spacing: .02em;
+}
+
+.grid-3 p{
+    font-family: Garamond;
+    font-weight: lighter;  
+    letter-spacing: .022em;
+    line-height: 1.6em;
+}
+
+.grid-3 h3{
+    font-family: Georgia;
+    font-size:1.1em;    
+}
+
+.type-2{
+    float:right;
+}
+
+.type-2 h2{
+    font-family: helvetica;
+ font-size: 2em; 
+}
+
+.type-2 p{
+  font-family: sans-serif;
+    font-size: .8em;
+    letter-spacing: .08em;
+}
+
+.type-2 h3{
+  font-family: helvetica;
+    text-decoration: underline;
+}
+
+
+.grid-6 li{
+    text-decoration: none;
+}
+
 
 /* Forms */
+.button-a{
+font-family: serif;
 
+}
+
+
+
+.button-b{
+    
+}
 
 /* Tables */
+table tr td{
+    border: solid black 1.5px;
+    font-family: serif;
+    font-size: .7em;
+}
+
+tr{
+    height: 75px;
+
+}
+
+td{
+    width: 100%;
+
+}
 
 
 /* Cards */
+
+figure h2{
+    font-weight: lighter;
+    
+}
